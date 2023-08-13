@@ -1,15 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import FunctionalGreetingWithProps from "./components/FunctionalGreetingWithProps";
+import StateFullGreeting from "./components/StateFullGreeting";
 
 function App() {
   return (
     <div className="App">
-      <FunctionalGreetingWithProps
-        greeting={"Hello"}
-        name={"Edward"}
-        age={28}
-      />
+      <StateFullGreeting greeting={"Hello"} name={"Edward"} />
     </div>
   );
 }
