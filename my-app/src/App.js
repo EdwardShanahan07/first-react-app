@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import StateFullGreeting from "./components/StateFullGreeting";
+import StateFullGreetingWithPrevState from "./components/StateFullGreetingWithPrevState";
 
 function App() {
   return (
     <div className="App">
-      <StateFullGreeting name={"Edward"} />
+      <StateFullGreetingWithPrevState />
     </div>
   );
 }
