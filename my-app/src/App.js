@@ -5,7 +5,7 @@ import StateFullGreeting from "./components/StateFullGreeting";
 function App() {
   return (
     <div className="App">
-      <StateFullGreeting greeting={"Hello"} name={"Edward"} />
+      <StateFullGreeting name={"Edward"} />
     </div>
   );
 }

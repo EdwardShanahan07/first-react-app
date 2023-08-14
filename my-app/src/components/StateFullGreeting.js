@@ -1,13 +1,28 @@
 import React from "react";
 
 class StateFullGreeting extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      introduction: "Hello!",
+      buttonText: "Exit",
+    };
+  }
+
+  handleClick() {
+    this.setState({
+      introduction: "GoodBye!",
+      buttonText: "Enter",
+    });
+  }
+
   render() {
     return (
       <div>
-        <h1>
-          {this.props.greeting} {this.props.name}, I'm a statefull class
-          component!
-        </h1>
+        <h1>{this.state.introduction}</h1>
+        <button onClick={() => this.handleClick()}>
+          {this.state.buttonText}
+        </button>
       </div>
     );
   }
