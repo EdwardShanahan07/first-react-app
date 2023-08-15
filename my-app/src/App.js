@@ -1,13 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import EventFunctional from "./components/EventFunctional";
-import EventClass from "./components/EventClass";
-
+import ConditionalRenderFunctional from "./components/ConditionalRenderFunctional";
+import ConditionalRenderClass from "./components/ConditionalRenderClass";
 function App() {
   return (
     <div className="App">
-      <EventFunctional />
-      <EventClass />
+      <ConditionalRenderClass />
     </div>
   );
 }
