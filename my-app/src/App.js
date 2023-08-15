@@ -1,11 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
-import StateFullGreetingWithPrevState from "./components/StateFullGreetingWithPrevState";
+import EventFunctional from "./components/EventFunctional";
+import EventClass from "./components/EventClass";
 
 function App() {
   return (
     <div className="App">
-      <StateFullGreetingWithPrevState />
+      <EventFunctional />
+      <EventClass />
     </div>
   );
 }
