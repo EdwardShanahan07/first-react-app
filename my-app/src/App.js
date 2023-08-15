@@ -1,11 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
-import ConditionalRenderFunctional from "./components/ConditionalRenderFunctional";
-import ConditionalRenderClass from "./components/ConditionalRenderClass";
+import RenderLists from "./components/RenderLists";
+
 function App() {
   return (
     <div className="App">
-      <ConditionalRenderClass />
+      <RenderLists />
     </div>
   );
 }
