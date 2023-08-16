@@ -1,10 +1,10 @@
 import "./App.css";
-import RenderLists from "./components/RenderLists";
+import ControlledFormHooks from "./components/ControlledFormHooks";
 
 function App() {
   return (
     <div className="App">
-      <RenderLists />
+      <ControlledFormHooks />
     </div>
   );
 }
